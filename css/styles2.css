@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+  body { 
+    /*Image from: https://www.spacetelescope.org*/
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/background2.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     margin: 0; 
+     padding: 0; 
+     font-family: "Verdana", sans-serif; 
+  }
+
+  p {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  } 
+
+  img {
+    border-radius: 50%;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    text-align: left;
+    width: 90%;
+    height: 90%;
+  }
+
+  li{
+    padding-bottom: 0.1%;
+  }
+
+  .name{
+    font-size: 3em;
+  }
+
+  .text{
+    font-size: 1.7em;
+  }
+
+  .links{
+    font-size: 1.7em;
+    font-weight: bold;
+  }
+
+  .keywords{
+    font-size: 1.3em;
+  }
+
+
+  .index_col {
+    text-align: center;
+  }
+
+  .single_col {
+    text-align: center;
+  }
+
+  .sidecol {
+    width: 12.5%;
+    padding-bottom: 2%;
+  } 
+  
+  .itemcol{
+    width: 18%;
+    vertical-align:top;
+    padding-bottom: 2%;
+  }
+
+  .descriptioncol{
+    width: 57%;
+    vertical-align:top;
+    padding-bottom: 2%;
+  }
+
+  .list {
+    text-align: left;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 0.1%;
+    list-style-type:none;
+  }
+
+.column_left {
+    text-align: right;
+    /*padding-left: 10%;*/
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-top: 2%
+  }
+  
+  .column_right {
+    /*text-align: center;*/
+    /*padding-left: 10%;*/
+    float: left;
+    width: 55%;
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-top: 4%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column_left {
+      float: center;
+      width: 100%;
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .column_right {
+      float: center;
+      width: 100%;
+      padding-top: 1%;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
